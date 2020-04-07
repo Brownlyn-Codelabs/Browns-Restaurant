@@ -1,0 +1,322 @@
+
+@media (max-width: 62em) {
+    .navbar-nav {
+        padding-top: .425rem;
+        padding-left: 0.75rem;
+        font-family: roboto;
+    }
+    .navbar-nav .nav-item {
+        float: none;
+        
+    }
+    .navbar-brand {
+        float: right;
+    }
+    .navbar-brand,
+    .navbar-nav .nav-item {
+        display: block;
+    }
+    .navbar-nav .nav-item + .nav-item {
+        margin-left: 0;
+        font-family: roboto;
+    }
+    .dropdown-menu {
+        position: relative;
+        float: none;
+    }
+}
+
+#logo{
+font-weight: bolder;
+    font-size:25px;
+    font-family: roboto;
+}
+
+body {
+    position: relative;
+}
+
+
+/*Navbar*/
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-toggler {
+    color: #fff; 
+}
+
+
+.bg-inverse {
+    background-color: #292b2c!important;
+    transition:700ms ease;
+}
+
+/*Changing of nav color on scroll*/
+.bg-inverse.scrolled{
+    background-color: #00b0dc !important;
+}
+ 
+/*
+.navbar-inverse .navbar-nav .nav-link .scrolled {
+    color:#00b0dc;
+    
+}
+*/
+
+.nav-link:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.nav-link:active {
+    color: #00b0dc;
+}
+
+.active{ 
+border-bottom: 2px solid #fff;
+}
+
+
+/* Carousel */
+
+.w-100 {
+    width: 100%!important;
+}
+
+.carousel-caption{
+    margin-bottom: 30px;
+}
+
+.carousel-caption h1{
+    font-size: 2.5rem;
+    margin-bottom: 2.0rem;
+    color: #fff;
+}
+
+.carousel-caption p{
+   font-size: 1.2rem;
+    margin-bottom: 9rem;
+    color: #fff;
+    
+}
+
+#lead{
+    font-size: 17px;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border: 2px solid transparent;
+}
+
+.btn-info:hover {
+    color: #5bc0de;
+    background: transparent;
+    border-color: #5bc0de;
+}
+
+.btn-info:active {
+    color: #5bc0de; !important
+    background: transparent; !important
+    border-color: #5bc0de; !important
+}
+
+
+/*signup*/
+.signup{
+    background: #252525;
+    padding: 20px 10px;
+}
+
+
+.signup h5{
+   color: #fff;
+    font-family: roboto;
+    margin-left: 100px;
+    letter-spacing: 2px;
+}
+
+
+
+/*Team*/
+
+#team{
+    background-color: #00b0dc;
+    padding: 50px 10px;
+}
+#team p{
+    color: #252525;
+}
+#team img{
+   border-radius: 10px;
+}
+
+
+/*menu*/
+.card{
+box-shadow: 2px 5px 8px;
+}
+
+#menu{
+    padding: 20px 0;
+}
+
+
+
+
+
+
+/*js Parallax*/
+
+
+/*Table of Wine*/
+#wine{
+    padding: 50px 80px;
+}
+
+
+/*Jumbotron*/
+
+
+/*Portfolio*/
+#favs{
+    cursor: pointer;
+    transition: 100ms;
+    padding: 50px;
+}
+
+.card-img{
+    box-shadow: 2px 2px 5px #000;
+}
+.ovl{
+    opacity: 0;
+    transition: 0.8s;
+}
+.ovl:hover{
+    opacity: 10;
+    background: rgb(0,0,0,0.6)
+}
+#favs.card-text{
+    font-weight: bold;
+}
+
+
+/*Parallax for Testimonial*/
+.parallax-window {
+	min-height: 500px;
+	background: transparent 0.1;
+    border: none;
+}
+
+.parallax-window .active {
+    border: none;
+}
+
+
+
+
+/*Testimonials*/
+.t-qot::before {
+    content: '"';
+    font-size: 50px;
+    position: relative;
+    color: #00b0dc;
+    line-height: 10px;
+    bottom: -10px;
+    right: 5px;
+}
+
+.t-qot::after{
+    content: '"';
+    font-size: 50px;
+    position: relative;
+    color: #00b0dc;
+    line-height: 10px;
+    bottom: -10px;
+    left: 5px;
+}
+
+.carousel{
+    border-bottom: none;
+}
+
+.t-det{
+    float: left;
+    text-align: center;
+}
+
+#testimonial{
+    padding: 100px 0;
+}
+#testimonial span{
+    color: #00b0dc;
+}
+
+
+
+/*Contact*/
+#contact{
+    padding: 80px 0;   
+}
+
+#c-map{
+    background-image: url(../img/bg-map.png)
+}
+
+#contact span{
+    color: #00b0dc;
+}
+
+
+.cbtn{
+margin-top: 28px;
+}
+
+
+/*Footer*/
+
+#footer{
+    background-image: url(../img/footer.png);
+    padding: 15px 0px;
+}
+
+
+.fot{
+    color: #fff;
+}
+
+.logo{
+    font-weight: bolder;
+    font-size:30px;
+    font-family: roboto;  
+}
+
+.cpt{
+    line-height: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.social_med {
+    margin-top: 20px;
+    font-size: 25px;
+    letter-spacing: 4px;
+    color: white;
+}
+.fab {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.social_med .fab {
+     text-decoration: none;
+     text-decoration-color: none; 
+    color: white;
+}
+
+
+
+
+
+
+
